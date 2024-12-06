@@ -35,3 +35,9 @@ function decreaseTimer() {
     determinWinner({ player: player1, enmy: enmy, timerId });
   }
 }
+
+changeBackground(newBackground) 
+{
+  document.body.style.backgroundImage = `url(${newBackground})`;
+  console.log(`Background changed to ${newBackground}`);
+} 
